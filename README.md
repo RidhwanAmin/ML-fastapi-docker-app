@@ -1,5 +1,5 @@
 # ML-fastapi-docker-app
-In this project we aim to serve machine learning models with FastAPI for live inferencing. More specifically, we’ll use a scikit-learn library of classification model for oilfield lithology prediction. Furthermore we also integrate the code with Docker so it is portable and can be deployed with more ease.
+In this project we aim to serve machine learning models with FastAPI. More specifically, we’ll use a scikit-learn library of classification model for oilfield lithology prediction. Furthermore we also integrate the code with Docker so it is portable and can be deployed with more ease.
 
 ## Problem Statement
 Lithology prediction based on drilling data can be applied in real-time geosteering. Whenever the measurements from drilling come in, the model predicts the lithology. 
