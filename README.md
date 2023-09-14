@@ -27,7 +27,7 @@ Second step step is build the Docker image for this project.
 and lastly is to Run to run it as a container.
 
 ```bash
- docker build -t oilfield-classify-app .  
+  docker run -p 80:80 oilfield-classify-app    
 ```
 
 After that, you can test the HTTP response in your own local host with FASTAPI swagger UI by searching https://0.0.0.0/docs in your browser. 
